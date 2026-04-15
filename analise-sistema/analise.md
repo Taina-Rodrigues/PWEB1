@@ -29,3 +29,13 @@ O acoplamento é moderado, já que a interface depende da estrutura dos produtos
 
 Separação de responsabilidades
 Existe, mas pode melhorar, pois os produtos estão organizados por categorias, porém não há garantia de separação clara entre lógica e interface. Ou seja, as conclusões foram obtidas por meio de engenharia reversa, pois não há acesso ao código-fonte.
+----------------------------------
+Questão 10 – Reflexão Crítica
+1. É possível modelar um sistema sem ver o código?
+Sim, é possível por meio da engenharia reversa, analisando o comportamento do sistema e sua interface.
+
+2. Qual a importância da modelagem?
+A modelagem permite compreender, organizar e documentar o sistema, facilitando sua manutenção e evolução.
+
+3. Diferença entre sistema real e didático
+O sistema real é mais complexo, estruturado e voltado para uso prático, enquanto o sistema didático é mais simples e focado no aprendizado.
