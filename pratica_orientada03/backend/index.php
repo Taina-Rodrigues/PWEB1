@@ -9,6 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit;
 }
 
+<<<<<<< HEAD
 require_once __DIR__ . '/../models/DescontoInterface.php';
 require_once __DIR__ . '/../models/SubjectInterface.php';
 require_once __DIR__ . '/../models/ObserverInterface.php';
@@ -17,6 +18,16 @@ require_once __DIR__ . '/../models/ItemPedido.php';
 require_once __DIR__ . '/../models/Pedido.php';
 require_once __DIR__ . '/../models/DescontoNenhum.php';
 require_once __DIR__ . '/../models/DescontoPromocional.php';
+=======
+require_once __DIR__ . '/../models/Produto.php';
+require_once __DIR__ . '/../models/ItemPedido.php';
+require_once __DIR__ . '/../models/Pedido.php';
+require_once __DIR__ . '/../models/DescontoInterface.php';
+require_once __DIR__ . '/../models/DescontoNenhum.php';
+require_once __DIR__ . '/../models/DescontoPromocional.php';
+require_once __DIR__ . '/../models/ObserverInterface.php';
+require_once __DIR__ . '/../models/SubjectInterface.php';
+>>>>>>> 42d89d5 (Implementação do backend em PHP)
 require_once __DIR__ . '/../models/WhatsAppObserver.php';
 require_once __DIR__ . '/../services/ProdutoFactory.php';
 require_once __DIR__ . '/../services/DescontoFactory.php';
