@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 []
 =======
+=======
+>>>>>>> 9507b8d (Corrige rota backend e ordem de inclusão de interfaces)
 [
     {
         "id": 1,
@@ -19,6 +22,7 @@
         "total": 8.5,
         "totalComDesconto": 8.5,
         "desconto": "Sem desconto"
+<<<<<<< HEAD
     },
     {
         "id": 2,
@@ -49,3 +53,7 @@
     }
 ]
 >>>>>>> arquitetura-sistema
+=======
+    }
+]
+>>>>>>> 9507b8d (Corrige rota backend e ordem de inclusão de interfaces)
