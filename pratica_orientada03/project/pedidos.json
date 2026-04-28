@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "id": 1,
+        "cliente": "Teste",
+        "itens": [
+            {
+                "produto": {
+                    "codigo": "pastel",
+                    "nome": "Pastel",
+                    "preco": 8.5
+                },
+                "quantidade": 1,
+                "subtotal": 8.5
+            }
+        ],
+        "total": 8.5,
+        "totalComDesconto": 8.5,
+        "desconto": "Sem desconto"
+    }
+]
