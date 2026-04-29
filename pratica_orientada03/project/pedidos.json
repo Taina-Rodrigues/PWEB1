@@ -1,1 +1,62 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 []
+=======
+=======
+>>>>>>> 9507b8d (Corrige rota backend e ordem de inclusão de interfaces)
+[
+    {
+        "id": 1,
+        "cliente": "Teste",
+        "itens": [
+            {
+                "produto": {
+                    "codigo": "pastel",
+                    "nome": "Pastel",
+                    "preco": 8.5
+                },
+                "quantidade": 1,
+                "subtotal": 8.5
+            }
+        ],
+        "total": 8.5,
+        "totalComDesconto": 8.5,
+        "desconto": "Sem desconto"
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 538b9e7 (Atualização dos pedidos na prática orientada 03)
+    },
+    {
+        "id": 2,
+        "cliente": "Tainá",
+        "itens": [
+            {
+                "produto": {
+                    "codigo": "pastel",
+                    "nome": "Pastel",
+                    "preco": 8.5
+                },
+                "quantidade": 1,
+                "subtotal": 8.5
+            },
+            {
+                "produto": {
+                    "codigo": "caldo",
+                    "nome": "Caldo de Cana",
+                    "preco": 6
+                },
+                "quantidade": 1,
+                "subtotal": 6
+            }
+        ],
+        "total": 14.5,
+        "totalComDesconto": 14.5,
+        "desconto": "Sem desconto"
+    }
+]
+>>>>>>> arquitetura-sistema
+=======
+    }
+]
+>>>>>>> 9507b8d (Corrige rota backend e ordem de inclusão de interfaces)
