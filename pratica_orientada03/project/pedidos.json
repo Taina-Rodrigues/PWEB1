@@ -16,5 +16,32 @@
         "total": 8.5,
         "totalComDesconto": 8.5,
         "desconto": "Sem desconto"
+    },
+    {
+        "id": 2,
+        "cliente": "Tainá",
+        "itens": [
+            {
+                "produto": {
+                    "codigo": "pastel",
+                    "nome": "Pastel",
+                    "preco": 8.5
+                },
+                "quantidade": 1,
+                "subtotal": 8.5
+            },
+            {
+                "produto": {
+                    "codigo": "caldo",
+                    "nome": "Caldo de Cana",
+                    "preco": 6
+                },
+                "quantidade": 1,
+                "subtotal": 6
+            }
+        ],
+        "total": 14.5,
+        "totalComDesconto": 14.5,
+        "desconto": "Sem desconto"
     }
 ]
