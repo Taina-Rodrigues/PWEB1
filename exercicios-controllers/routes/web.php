@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CursoController;
 use App\Http\Controllers\AlunoController;
+use App\Http\Controllers\DisciplinaController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -15,3 +16,8 @@ Route::post('/cursos', [CursoController::class, 'store']);
 Route::get('/cursos/{id}', [CursoController::class, 'show']);
 
 Route::resource('alunos', AlunoController::class);
+
+Route::get('/disciplinas', [DisciplinaController::class, 'index']);
+Route::get('/disciplinas/novo', [DisciplinaController::class, 'create']);
+Route::post('/disciplinas', [DisciplinaController::class, 'store']);
+Route::get('/disciplinas/{id}', [DisciplinaController::class, 'show']);
