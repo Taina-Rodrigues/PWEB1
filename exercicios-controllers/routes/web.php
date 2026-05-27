@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/cursos', [CursoController::class, 'index']);
+Route::get('/cursos/novo', [CursoController::class, 'create']);
