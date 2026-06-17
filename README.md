@@ -1,19 +1,62 @@
-# lab_migrations_taina_rodrigues
+# Lab Migrations Laravel
 
-Projeto Laravel para o laboratório de migrations.
+**Aluno:** Taina Rodrigues
+**Disciplina:** Programação Web I
+**Professor:** Renato William R. de Souza
+**Semestre:** 2026.1
 
-## Instruções de entrega
-- Este repositório deve ser público no GitHub.
-- O projeto Laravel está dentro da pasta `lab_migrations/`.
-- O arquivo `lab_migrations/.env` não deve ser versionado; ele já está ignorado pelo `.gitignore` do Laravel.
+## Como executar
+```bash
+git clone https://github.com/Taina-Rodrigues/lab_migrations_taina_rodrigues.git
+cd lab_migrations_taina_rodrigues/lab_migrations
+cp .env.example .env
+# Editar .env com as credenciais do banco
+composer install
+php artisan key:generate
+php artisan migrate
+```
 
-## Estrutura do repositório
-- `lab_migrations/`: projeto Laravel criado com `composer create-project laravel/laravel lab_migrations`
-- `lab_migrations/.env.example`: modelo de configuração que deve permanecer no repositório
+## Atividades
+| Atividade | Branch | Status |
+| - | - | - |
+| Atividade 1 Ambiente | `atividade/01-ambiente` | Concluída |
+| Atividade 2 Primeira Migration | `atividade/02-primeira-migration` | Pendente |
+| Atividade 3 Tipos de Dados | `atividade/03-tipos-de-dados` | Pendente |
+| Atividade 4 Chave Estrangeira | `atividade/04-chave-estrangeira` | Pendente |
+| Atividade 5 foreignId | `atividade/05-foreignid` | Pendente |
+| Atividade 6 Regras de Exclusão | `atividade/06-regras-exclusao` | Pendente |
+| Atividade 7 Alteração de Tabela | `atividade/07-alteracao-tabela` | Pendente |
+| Atividade 8 Status Migrations | `atividade/08-status-migrations` | Pendente |
+| Atividade 9 Relacionamento 1:N | `atividade/09-relacionamento-1n` | Pendente |
+| Atividade 10 Diagnóstico de Erros | `atividade/10-diagnostico-erros` | Pendente |
+| Prática 1 Biblioteca | `pratica/01-biblioteca` | Pendente |
+| Prática 2 Sistema Acadêmico | `pratica/02-sistema-academico` | Pendente |
+| Prática 3 Gestão de Projetos | `pratica/03-gestao-projetos` | Pendente |
+
+## Pull Request
+Cada atividade deve ser entregue em uma PR da branch da atividade para `main`.
+
+### Modelo de descrição da PR
+```markdown
+## Atividade X [Nome da Atividade]
+### O que foi implementado
+- <descrição da migration e/ou alterações>
+- Execução de `php artisan migrate` com sucesso
+### Comandos executados
+```bash
+php artisan make:migration ...
+php artisan migrate
+php artisan migrate:status
+```
+### Evidência (saída do terminal)
+<cole a saída do terminal aqui>
+```
+```
 
 ## Observações
-- Confirme que o repositório remoto no GitHub tem o nome `lab_migrations_taina_rodrigues`.
-- Faça `git push origin main` depois de adicionar o remote correto.
+- O arquivo `lab_migrations/.env` não deve ser versionado.
+- O arquivo `lab_migrations/.env.example` deve permanecer no repositório.
+- Existem branches locais criadas para cada atividade conforme a convenção exigida.
 
 ## Branches de atividade
 Use uma branch separada para cada atividade/prática conforme a convenção abaixo:
