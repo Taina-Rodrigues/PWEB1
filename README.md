@@ -1,6 +1,6 @@
 # Lab Migrations Laravel
 
-**Aluno:** Taina Rodrigues
+**Aluno:** Tainá Rodrigues dos Santos
 **Disciplina:** Programação Web I
 **Professor:** Renato William R. de Souza
 **Semestre:** 2026.1
