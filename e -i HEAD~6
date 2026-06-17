@@ -1,0 +1,26 @@
+[33m538b9e7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32marquitetura-sistema[m[33m, [m[1;31morigin/arquitetura-sistema[m[33m)[m Atualização dos pedidos na prática orientada 03
+[33m9507b8d[m Corrige rota backend e ordem de inclusão de interfaces
+[33m0ee6bb4[m Correção da função 'finalizar pedido
+[33m6f48a5a[m Entrega final do sistema
+[33m6e34ab8[m Docker configurado
+[33mee79c32[m Integração frontend/backend
+[33m42d89d5[m Implementação do backend em PHP
+[33mdff7494[m Criaç\u00e3o da arquitetura em camadas
+[33ma1538f9[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m Atividade PHP Orientado a Objetos
+[33mbc49547[m Renomeando pasta
+[33m7f87858[m Renomeando a pasta de questóes
+[33mbd86595[m Movendo meu README
+[33md70426b[m docs: README final
+[33mf70ef2c[m Create logout.php
+[33m83f0a47[m Create painel.php
+[33mc3c22b0[m Sistema integrador com Login, Cadastro e Sessão
+[33m96bcd15[m Controle de Acesso com Cookies
+[33mdb8b39b[m Sistema de Login com Área Restrita
+[33md930310[m Formulário com Validação
+[33mb6db79c[m Classificação Acadêmica
+[33ma6f4a48[m Create index.php
+[33m9674288[m Create index.php
+[33mb715317[m Create login.php
+[33ma76d490[m Create index.php
+[33m7fc6be4[m Create index.php
+[33mc358851[m Add files via upload
